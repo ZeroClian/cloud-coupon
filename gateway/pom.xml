@@ -13,8 +13,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>网关</name>
-    <description>url转发</description>
+    <description>优惠券系统——网关模块</description>
 
     <dependencies>
         <!--
