@@ -15,6 +15,7 @@
     <description>优惠券系统——服务模块</description>
     <modules>
         <module>common</module>
+        <module>template</module>
     </modules>
 
 </project>
