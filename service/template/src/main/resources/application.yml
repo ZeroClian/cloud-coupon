@@ -43,22 +43,6 @@ eureka:
     service-url:
       defaultZone: http://server1:8000/eureka/
 
-# ------------------------------------------------------------------------------------------------------
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-
-info:
-  app:
-    name: imooc-coupon-template
-    groupId: imooc-coupon-service
-    artifactId: coupon-template
-    version: 1.0-SNAPSHOT
-
-# ------------------------------------------------------------------------------------------------------
 
 logging:
   level:
