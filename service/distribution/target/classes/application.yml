@@ -56,7 +56,7 @@ eureka:
 
 logging:
   level:
-    com.imooc.coupon: debug
+    cn.zeroclian.coupon: debug
 
 # feign 相关的配置
 feign:

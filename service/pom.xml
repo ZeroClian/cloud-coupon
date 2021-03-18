@@ -17,6 +17,7 @@
         <module>common</module>
         <module>template</module>
         <module>distribution</module>
+        <module>settlement</module>
     </modules>
 
 </project>

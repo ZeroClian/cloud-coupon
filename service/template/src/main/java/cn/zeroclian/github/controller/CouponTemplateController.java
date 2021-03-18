@@ -52,6 +52,7 @@ public class CouponTemplateController {
     /**
      * <h2>构造优惠券模板详情</h2>
      * 127.0.0.1:7001/coupon-template/template/info?id=1
+     * 127.0.0.1:9000/zeroclian/coupon-template/template/info?id=1
      * */
     @GetMapping("/template/info")
     public CouponTemplate buildTemplateInfo(@RequestParam("id") Integer id)
@@ -63,6 +64,7 @@ public class CouponTemplateController {
     /**
      * <h2>查找所有可用的优惠券模板</h2>
      * 127.0.0.1:7001/coupon-template/template/sdk/all
+     * 127.0.0.1:9000/zeroclian/coupon-template/template/sdk/all
      * */
     @GetMapping("/template/sdk/all")
     public List<CouponTemplateSDK> findAllUsableTemplate() {
@@ -73,6 +75,7 @@ public class CouponTemplateController {
     /**
      * <h2>获取模板 ids 到 CouponTemplateSDK 的映射</h2>
      * 127.0.0.1:7001/coupon-template/template/sdk/infos
+     * 127.0.0.1:9000/zeroclian/coupon-template/template/sdk/infos?ids=1,2
      * */
     @GetMapping("/template/sdk/infos")
     public Map<Integer, CouponTemplateSDK> findIds2TemplateSDK(

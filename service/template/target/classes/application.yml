@@ -46,4 +46,4 @@ eureka:
 
 logging:
   level:
-    com.imooc.coupon: debug
+    cn.zeroclian.coupon: debug

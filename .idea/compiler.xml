@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common" />
-        <module name="template" />
         <module name="gateway" />
-        <module name="distribution" />
+        <module name="settlement" />
         <module name="eureka" />
+        <module name="template" />
+        <module name="distribution" />
+        <module name="common" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +23,7 @@
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="settlement" options="-parameters" />
       <module name="template" options="-parameters" />
     </option>
   </component>

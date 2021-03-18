@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
  * @Date 2021-02-25-20:07
  */
 @Slf4j
-@Component
+//@Component
 public class TokenFilter extends AbstractPreZuulFilter {
     @Override
     protected Object cRun() {
