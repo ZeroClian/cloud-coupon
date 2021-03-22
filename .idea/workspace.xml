@@ -3,18 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4fbb1c2c-b4ad-4eb3-a04e-02bd97835224" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/distribution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/distribution/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/controller/CouponDistributionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/controller/HealthCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/distribution/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/distribution/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/distribution/src/test/java/cn/zeroclian/github/controller/CouponDistributionControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/distribution/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/distribution/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/distribution/target/classes/cn/zeroclian/github/controller/CouponDistributionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/distribution/target/classes/cn/zeroclian/github/controller/HealthCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/distribution/target/classes/cn/zeroclian/github/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/distribution/target/classes/cn/zeroclian/github/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/template/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/template/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/template/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/settlement/target/classes/cn/zeroclian/github/controller/settlementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/settlement/target/classes/cn/zeroclian/github/controller/settlementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/settlement/target/classes/cn/zeroclian/github/executor/impl/LiJianExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/settlement/target/classes/cn/zeroclian/github/executor/impl/LiJianExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/settlement/target/classes/cn/zeroclian/github/executor/impl/ManJianExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/settlement/target/classes/cn/zeroclian/github/executor/impl/ManJianExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/settlement/target/classes/cn/zeroclian/github/executor/impl/ManJianZheKouExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/settlement/target/classes/cn/zeroclian/github/executor/impl/ManJianZheKouExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/settlement/target/classes/cn/zeroclian/github/executor/impl/ZheKouExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/settlement/target/classes/cn/zeroclian/github/executor/impl/ZheKouExecutor.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,59 +29,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/settlement/src/main/java/cn/zeroclian/github/controller/settlementController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/settlement/src/test/java/cn/zeroclian/github/SettlementApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/distribution/src/test/java/cn/zeroclian/github/service/UserServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/service/settlement/src/test/java/cn/zeroclian/github/service/ExecuteManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <state relative-caret-position="1740">
+              <caret line="217" column="74" selection-start-line="217" selection-start-column="74" selection-end-line="217" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#fakeManJianCouponSettlement#0;class#ExecuteManagerTest#0" />
+                <element signature="method#fakeZheKouCouponSettlement#0;class#ExecuteManagerTest#0" />
+                <element signature="method#fakeZheKouCouponSettlement#1;class#ExecuteManagerTest#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/feign/htstrix/SettlementClientHystrix.java">
+        <entry file="file://$PROJECT_DIR$/service/common/src/main/java/cn/zeroclian/github/vo/TemplateRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/feign/htstrix/TemplateClientHystrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="20" column="78" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/service/IUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#UserServiceImpl#0;class#UserServiceImpl#0" />
-                <element signature="method#findAvailableTemplate#0;class#UserServiceImpl#0" />
-                <element signature="method#acquireTemplate#0;class#UserServiceImpl#0" />
-              </folding>
+            <state relative-caret-position="118">
+              <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -112,8 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/entity/Coupon.java" />
-        <option value="$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/dao/CouponDao.java" />
         <option value="$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/service/IKafkaService.java" />
         <option value="$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/vo/AcquireTemplateRequest.java" />
         <option value="$PROJECT_DIR$/service/common/src/main/java/cn/zeroclian/github/constant/GoodsType.java" />
@@ -163,6 +154,8 @@
         <option value="$PROJECT_DIR$/service/template/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service/distribution/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service/distribution/src/test/java/cn/zeroclian/github/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/service/settlement/src/test/java/cn/zeroclian/github/SettlementApplicationTests.java" />
+        <option value="$PROJECT_DIR$/service/settlement/src/test/java/cn/zeroclian/github/service/ExecuteManagerTest.java" />
       </list>
     </option>
   </component>
@@ -180,10 +173,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+    <option name="x" value="-24" />
+    <option name="y" value="-26" />
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -210,20 +203,20 @@
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="settlement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="settlement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="settlement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -231,7 +224,7 @@
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="settlement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -240,7 +233,7 @@
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="settlement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -250,7 +243,7 @@
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="settlement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -261,155 +254,12 @@
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-              <item name="htstrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="distribution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="settlement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="settlement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="settlement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="settlement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="settlement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
@@ -424,39 +274,26 @@
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="settlement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="settlement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="settlement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -464,32 +301,12 @@
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="settlement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -517,7 +334,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="GrepConsole" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -544,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.testFindAvailableTemplate">
+  <component name="RunManager" selected="JUnit.ExecuteManagerTest.testComputeRule">
     <configuration name="DistributionApplicationTests.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="distribution" />
       <extension name="coverage">
@@ -555,6 +372,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.zeroclian.github" />
       <option name="MAIN_CLASS_NAME" value="cn.zeroclian.github.DistributionApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecuteManagerTest.testComputeRule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="settlement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zeroclian.github.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zeroclian.github.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.zeroclian.github.service.ExecuteManagerTest" />
+      <option name="METHOD_NAME" value="testComputeRule" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SettlementApplicationTests.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="settlement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zeroclian.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zeroclian.github" />
+      <option name="MAIN_CLASS_NAME" value="cn.zeroclian.github.SettlementApplicationTests" />
       <option name="METHOD_NAME" value="contextLoad" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -600,21 +449,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SettlementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="settlement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zeroclian.github.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zeroclian.github.SettlementApplication" />
-      <option name="DEBUG_MODE" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="template" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zeroclian.github.TemplateApplication" />
@@ -622,35 +456,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zeroclian.github.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zeroclian.github.ZuulGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.DistributionApplicationTests.contextLoad" />
-      <item itemvalue="Spring Boot.DistributionApplication" />
-      <item itemvalue="Spring Boot.TemplateApplication" />
-      <item itemvalue="Spring Boot.SettlementApplication" />
-      <item itemvalue="Spring Boot.ZuulGatewayApplication" />
       <item itemvalue="JUnit.UserServiceTest.testFindCouponByStatus" />
       <item itemvalue="JUnit.UserServiceTest.testFindAvailableTemplate" />
+      <item itemvalue="JUnit.SettlementApplicationTests.contextLoad" />
+      <item itemvalue="Spring Boot.DistributionApplication" />
+      <item itemvalue="Spring Boot.TemplateApplication" />
+      <item itemvalue="JUnit.ExecuteManagerTest.testComputeRule" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExecuteManagerTest.testComputeRule" />
+        <item itemvalue="JUnit.SettlementApplicationTests.contextLoad" />
         <item itemvalue="JUnit.UserServiceTest.testFindAvailableTemplate" />
         <item itemvalue="JUnit.UserServiceTest.testFindCouponByStatus" />
         <item itemvalue="JUnit.DistributionApplicationTests.contextLoad" />
-        <item itemvalue="Spring Boot.SettlementApplication" />
-        <item itemvalue="Spring Boot.ZuulGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -672,7 +493,8 @@
       <workItem from="1616036102107" duration="1124000" />
       <workItem from="1616205679395" duration="1706000" />
       <workItem from="1616227600205" duration="1865000" />
-      <workItem from="1616334914645" duration="12841000" />
+      <workItem from="1616334914645" duration="14037000" />
+      <workItem from="1616400433627" duration="7905000" />
     </task>
     <task id="LOCAL-00001" summary="项目创建">
       <created>1614250175477</created>
@@ -751,49 +573,64 @@
       <option name="project" value="LOCAL" />
       <updated>1616036396734</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修改配置文件，添加分发微服务测试用例，完成虚拟机上的测试">
+      <created>1616399365316</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616399365316</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DistributionApplicationTests_contextLoad - 2021.03.09 at 16h 56m 17s.xml">
-      <configuration name="DistributionApplicationTests.contextLoad" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TemplateApplicationTests_contextLoad - 2021.03.09 at 17h 19m 30s.xml">
-      <configuration name="TemplateApplicationTests.contextLoad" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DistributionApplicationTests_contextLoad - 2021.03.09 at 17h 26m 34s.xml">
-      <configuration name="DistributionApplicationTests.contextLoad" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DistributionApplicationTests_contextLoad - 2021.03.10 at 13h 44m 52s.xml">
-      <configuration name="DistributionApplicationTests.contextLoad" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CouponDistributionControllerTest_findAvailableTemplate - 2021.03.10 at 13h 59m 23s.xml">
-      <configuration name="CouponDistributionControllerTest.findAvailableTemplate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DistributionApplicationTests_contextLoad - 2021.03.22 at 15h 09m 56s.xml">
-      <configuration name="DistributionApplicationTests.contextLoad" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DistributionApplicationTests_contextLoad - 2021.03.22 at 15h 14m 44s.xml">
-      <configuration name="DistributionApplicationTests.contextLoad" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_testFindCouponByStatus - 2021.03.22 at 15h 28m 56s.xml">
-      <configuration name="UserServiceTest.testFindCouponByStatus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_testFindCouponByStatus - 2021.03.22 at 15h 35m 36s.xml">
-      <configuration name="UserServiceTest.testFindCouponByStatus" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserServiceTest_testFindAvailableTemplate - 2021.03.22 at 15h 42m 21s.xml">
       <configuration name="UserServiceTest.testFindAvailableTemplate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SettlementApplicationTests_contextLoad - 2021.03.22 at 16h 01m 50s.xml">
+      <configuration name="SettlementApplicationTests.contextLoad" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecuteManagerTest_testComputeRule - 2021.03.22 at 21h 04m 41s.xml">
+      <configuration name="ExecuteManagerTest.testComputeRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecuteManagerTest_testComputeRule - 2021.03.22 at 21h 09m 27s.xml">
+      <configuration name="ExecuteManagerTest.testComputeRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecuteManagerTest_testComputeRule - 2021.03.22 at 21h 29m 02s.xml">
+      <configuration name="ExecuteManagerTest.testComputeRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecuteManagerTest_testComputeRule - 2021.03.22 at 21h 43m 13s.xml">
+      <configuration name="ExecuteManagerTest.testComputeRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecuteManagerTest_testComputeRule - 2021.03.22 at 21h 44m 18s.xml">
+      <configuration name="ExecuteManagerTest.testComputeRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecuteManagerTest_testComputeRule - 2021.03.22 at 21h 50m 50s.xml">
+      <configuration name="ExecuteManagerTest.testComputeRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecuteManagerTest_testComputeRule - 2021.03.23 at 01h 04m 00s.xml">
+      <configuration name="ExecuteManagerTest.testComputeRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecuteManagerTest_testComputeRule - 2021.03.23 at 01h 05m 44s.xml">
+      <configuration name="ExecuteManagerTest.testComputeRule" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119772000" />
+    <option name="totallyTimeSpent" value="128873000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27485853" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27970898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -801,21 +638,22 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5754561" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5920398" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.3283582" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3283582" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3283582" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3283582" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3283582" />
+      <window_info anchor="bottom" id="Tail" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.5754561" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5920398" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3283582" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3283582" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3283582" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3283582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -883,7 +721,8 @@
     <MESSAGE value="模板微服务" />
     <MESSAGE value="分发微服务" />
     <MESSAGE value="结算微服务、初步通过测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="结算微服务、初步通过测试" />
+    <MESSAGE value="修改配置文件，添加分发微服务测试用例，完成虚拟机上的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改配置文件，添加分发微服务测试用例，完成虚拟机上的测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -916,23 +755,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/settlement/src/main/java/cn/zeroclian/github/SettlementApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/template/src/main/java/cn/zeroclian/github/schedule/ScheduledTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330" />
@@ -990,13 +812,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/common/src/main/java/cn/zeroclian/github/vo/TemplateRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1131,16 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/settlement/src/main/java/cn/zeroclian/github/controller/settlementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/common/src/main/java/cn/zeroclian/github/vo/SettlementInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1158,26 +963,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/template/src/main/java/cn/zeroclian/github/controller/UserServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/controller/CouponDistributionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="59" column="5" selection-start-line="32" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/service/template/src/main/java/cn/zeroclian/github/controller/UserServiceController.java" />
+    <entry file="file://$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/controller/CouponDistributionController.java" />
     <entry file="file://$PROJECT_DIR$/service/template/src/main/java/cn/zeroclian/github/controller/CouponTemplateController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1197,13 +984,6 @@
             <element signature="e#501#502#0" expanded="true" />
             <element signature="e#547#548#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1271,13 +1051,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/controller/HealthCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/controller/HealthCheck.java" />
     <entry file="file://$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/controller/RibbonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -1335,9 +1109,56 @@
     <entry file="file://$PROJECT_DIR$/service/distribution/src/test/java/cn/zeroclian/github/service/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/settlement/src/main/java/cn/zeroclian/github/controller/settlementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/settlement/src/test/java/cn/zeroclian/github/SettlementApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/common/src/main/java/cn/zeroclian/github/vo/TemplateRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/settlement/src/test/java/cn/zeroclian/github/service/ExecuteManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="217" column="74" selection-start-line="217" selection-start-column="74" selection-end-line="217" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#fakeManJianCouponSettlement#0;class#ExecuteManagerTest#0" />
+            <element signature="method#fakeZheKouCouponSettlement#0;class#ExecuteManagerTest#0" />
+            <element signature="method#fakeZheKouCouponSettlement#1;class#ExecuteManagerTest#0" />
           </folding>
         </state>
       </provider>
