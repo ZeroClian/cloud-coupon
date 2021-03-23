@@ -15,9 +15,9 @@ import java.util.stream.Stream;
 @AllArgsConstructor
 public enum CouponStatus {
 
-    USABLE("",1),
-    USED("",2),
-    EXPIRED("",3);
+    USABLE("可使用",1),
+    USED("已使用",2),
+    EXPIRED("已过期",3);
 
     /** 优惠券状态描述信息 */
     private String description;
