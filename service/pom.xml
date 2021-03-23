@@ -19,6 +19,7 @@
         <module>distribution</module>
         <module>settlement</module>
         <module>permission-sdk</module>
+        <module>permission-service</module>
     </modules>
 
 </project>
