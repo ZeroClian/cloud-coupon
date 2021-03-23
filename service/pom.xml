@@ -20,6 +20,7 @@
         <module>settlement</module>
         <module>permission-sdk</module>
         <module>permission-service</module>
+        <module>permission-detector</module>
     </modules>
 
 </project>

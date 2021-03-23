@@ -11,6 +11,7 @@
         <module name="settlement" />
         <module name="eureka" />
         <module name="template" />
+        <module name="permission-detector" />
         <module name="permission-service" />
         <module name="permission-sdk" />
         <module name="distribution" />
@@ -24,6 +25,7 @@
       <module name="distribution" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="permission-detector" options="-parameters" />
       <module name="permission-sdk" options="-parameters" />
       <module name="permission-service" options="-parameters" />
       <module name="service" options="-parameters" />
