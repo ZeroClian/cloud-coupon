@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fbb1c2c-b4ad-4eb3-a04e-02bd97835224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/annotation/CouponPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/annotation/IgnorePermission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4fbb1c2c-b4ad-4eb3-a04e-02bd97835224" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka/target/" />
@@ -29,18 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/dao/UserRoleMappingRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/service/PathService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,6 +109,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/vo/PermissionInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/annotation/IgnorePermission.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -172,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service/template/src/main/java/cn/zeroclian/github/controller/HealthCheck.java" />
         <option value="$PROJECT_DIR$/eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/cn/zeroclian/github/filter/AbstractZuulFilter.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/cn/zeroclian/github/filter/AccessLogFilter.java" />
@@ -223,6 +215,7 @@
         <option value="$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/PermissionSDKConfig.java" />
         <option value="$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/annotation/CouponPermission.java" />
         <option value="$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/annotation/IgnorePermission.java" />
+        <option value="$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/vo/PermissionInfo.java" />
       </list>
     </option>
   </component>
@@ -305,17 +298,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="permission-detector" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
@@ -739,7 +721,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616485758707</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="权限描述与权限忽略注解定义">
+      <created>1616486373262</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1616486373262</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -775,7 +764,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143564000" />
+    <option name="totallyTimeSpent" value="143894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -891,7 +880,8 @@
     <MESSAGE value="权限创建与校验服务接口实现" />
     <MESSAGE value="路径创建与权限校验功能 Feign 接口实现" />
     <MESSAGE value="创建权限探测器模块及初始化配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建权限探测器模块及初始化配置" />
+    <MESSAGE value="权限描述与权限忽略注解定义" />
+    <option name="LAST_COMMIT_MESSAGE" value="权限描述与权限忽略注解定义" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -924,18 +914,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/distribution/src/main/java/cn/zeroclian/github/controller/UserServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-858" />
@@ -1348,6 +1326,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/annotation/IgnorePermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/annotation/CouponPermission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -1358,13 +1346,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/annotation/IgnorePermission.java">
+    <entry file="file://$PROJECT_DIR$/service/permission-detector/src/main/java/cn/zeroclian/github/vo/PermissionInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
