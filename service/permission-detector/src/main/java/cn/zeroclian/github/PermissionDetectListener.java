@@ -77,7 +77,7 @@ public class PermissionDetectListener implements
 
         //取出 Spring 的映射 bean
         RequestMappingHandlerMapping mappingBean =
-                (RequestMappingHandlerMapping) ctx.getBean("RequestMappingHandlerMapping");
+                (RequestMappingHandlerMapping) ctx.getBean("requestMappingHandlerMapping");
         //扫描权限
         List<PermissionInfo> permissionInfoList = new AnnotationScanner(pathPrefix)
                 .scanPermission(mappingBean.getHandlerMethods());

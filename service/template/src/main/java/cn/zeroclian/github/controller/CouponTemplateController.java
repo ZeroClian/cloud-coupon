@@ -1,5 +1,7 @@
 package cn.zeroclian.github.controller;
 
+import cn.zeroclian.github.annotation.CouponPermission;
+import cn.zeroclian.github.annotation.IgnorePermission;
 import cn.zeroclian.github.entity.CouponTemplate;
 import cn.zeroclian.github.exception.CouponException;
 import cn.zeroclian.github.service.IBuildTemplateService;
@@ -43,6 +45,7 @@ public class CouponTemplateController {
      * 127.0.0.1:9000/zeroclian/coupon-template/template/build
      * */
     @PostMapping("/template/build")
+    @CouponPermission(description = "buildTemplate",readOnly = false)
     public CouponTemplate buildTemplate(@RequestBody TemplateRequest request)
             throws CouponException {
         log.info("Build Template: {}", JSON.toJSONString(request));
@@ -55,6 +58,7 @@ public class CouponTemplateController {
      * 127.0.0.1:9000/zeroclian/coupon-template/template/info?id=1
      * */
     @GetMapping("/template/info")
+    @CouponPermission(description = "buildTemplateInfo")
     public CouponTemplate buildTemplateInfo(@RequestParam("id") Integer id)
             throws CouponException {
         log.info("Build Template Info For: {}", id);
@@ -67,6 +71,7 @@ public class CouponTemplateController {
      * 127.0.0.1:9000/zeroclian/coupon-template/template/sdk/all
      * */
     @GetMapping("/template/sdk/all")
+    @IgnorePermission
     public List<CouponTemplateSDK> findAllUsableTemplate() {
         log.info("Find All Usable Template.");
         return templateBaseService.findAllUsableTemplate();

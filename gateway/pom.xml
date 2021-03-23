@@ -40,6 +40,12 @@
             <artifactId>guava</artifactId>
             <version>16.0</version>
         </dependency>
+        <!--权限 SDK-->
+        <dependency>
+            <groupId>cn.zeroclian.github</groupId>
+            <artifactId>permission-sdk</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <!--
