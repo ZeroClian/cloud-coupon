@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fbb1c2c-b4ad-4eb3-a04e-02bd97835224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/constant/RoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/controller/PermissionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/service/PermissionService.java" afterDir="false" />
+    <list default="true" id="4fbb1c2c-b4ad-4eb3-a04e-02bd97835224" name="Default Changelist" comment="权限创建与校验服务接口实现">
+      <change afterPath="$PROJECT_DIR$/service/permission-sdk/src/main/java/cn/zeroclian/github/permission/PermissionClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/template/src/test/java/cn/zeroclian/github/org/springframework/beans/factory/annotation/annotations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/dao/UserRoleMappingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/dao/UserRoleMappingRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/controller/PermissionController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
@@ -76,6 +74,27 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/permission-sdk/src/main/java/cn/zeroclian/github/permission/PermissionClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/permission-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -118,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service/settlement/src/main/java/cn/zeroclian/github/executor/RuleExecutor.java" />
         <option value="$PROJECT_DIR$/service/settlement/src/main/java/cn/zeroclian/github/executor/AbstractExecutor.java" />
         <option value="$PROJECT_DIR$/service/settlement/src/main/java/cn/zeroclian/github/executor/ExecuteManager.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/application.yml" />
@@ -169,6 +187,7 @@
         <option value="$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/dao/UserRoleMappingRepository.java" />
         <option value="$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/service/PermissionService.java" />
         <option value="$PROJECT_DIR$/service/permission-service/src/main/java/cn/zeroclian/github/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/service/permission-sdk/src/main/java/cn/zeroclian/github/permission/PermissionClient.java" />
       </list>
     </option>
   </component>
@@ -210,7 +229,63 @@
             <path>
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-sdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-coupon" type="b2602c69:ProjectViewProjectNode" />
@@ -616,7 +691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616481946693</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="权限创建与校验服务接口实现">
+      <created>1616484626017</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616484626017</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -652,7 +734,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141808000" />
+    <option name="totallyTimeSpent" value="142405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,7 +747,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26273242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -765,7 +846,8 @@
     <MESSAGE value="创建权限微服务模块" />
     <MESSAGE value="权限涉及的实体表定义" />
     <MESSAGE value="路径创建功能服务接口实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="路径创建功能服务接口实现" />
+    <MESSAGE value="权限创建与校验服务接口实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="权限创建与校验服务接口实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -798,13 +880,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/common/src/main/java/cn/zeroclian/github/vo/SettlementInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/template/src/main/java/cn/zeroclian/github/controller/HealthCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-336">
@@ -1081,13 +1156,6 @@
     <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/permission-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/Basic.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1218,6 +1286,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/permission-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/permission-sdk/src/main/java/cn/zeroclian/github/permission/PermissionClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
